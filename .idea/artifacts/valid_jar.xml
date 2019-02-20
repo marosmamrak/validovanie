@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="valid:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/valid_jar</output-path>
+    <root id="archive" name="valid.jar">
+      <element id="module-output" name="valid" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/xmlunit/xmlunit-core/2.6.2/xmlunit-core-2.6.2.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -43,7 +43,8 @@ public class xsdValidator {
 
 			try {
 				Schema schema = factory.newSchema(url);
-				Validator validator = schema.newValidator();
+				Validator validator;
+				validator = schema.newValidator();
 
 
 				Source source = new StreamSource(XMLFile);
